@@ -93,6 +93,9 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li {
     margin-left: 10px !important;
   }
+    .fh5co-counters{
+        padding: 3em 0 3em 0!important; 
+    }
 }
 #fh5co-header #navbar li a {
   background: rgba(255, 255, 255, 0.2);
