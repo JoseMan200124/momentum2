@@ -335,6 +335,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 #fh5co-services {
   padding-bottom: 0;
 }
@@ -554,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-counters {
-  padding: 3em 0;
+  padding: 3em 0 3em 20rem;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -1147,11 +1148,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 0;
   padding: 15px;
 }
-@media (min-width: 1000px) {
-  #timeline .demo-card .body {
-    height: 315px;
-  }
-}
+
 #timeline .demo-card .body p {
   font-size: 14px;
   line-height: 18px;
@@ -1197,4 +1194,95 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small{
     color: #000!Important; 
+}
+
+.slider{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.slider{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.carousel .card-1{
+background-image: url('/images/slider1.jpeg');
+    background-position: center center;
+    background-size: cover; 
+    height: 24rem; 
+   
+}
+.carousel .card-2{
+  background: #0072bc;
+    background-image: url('/images/slider2.jpeg');
+    background-position: center center;
+    background-size: cover; 
+    height: 24rem; 
+   
+}
+.carousel .card-3{
+  background: #39b54a;
+    background-image: url('/images/slider3.jpeg');
+    background-position: center center;
+    background-size: cover; 
+    height: 24rem; 
+   
+}
+.carousel .card-4{
+  background: #f26522;
+    background-image: url('/images/slider4.jpeg');
+    background-position: center center;
+    background-size: cover; 
+    height: 24rem; 
+   
+}
+.carousel .card-5{
+  background: #630460;
+    background-image: url('/images/slider5.jpeg');
+    background-position: center center;
+    background-size: cover; 
+    height: 24rem; 
+   
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #0072bc!important;
+}
+
+#fh5co-services, #fh5co-explore, #fh5co-team, #fh5co-footer, #fh5co-work, #fh5co-counters, #fh5co-pricing{
+    padding: 0; 
 }
