@@ -1163,37 +1163,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #timeline .demo-card--step1 {
-  background-color: #FFCBDB;
+  background-color: #ccc;
 }
 #timeline .demo-card--step1 .head::after {
-  border-color: #FFCBDB;
+  border-color: #ccc;
 }
 .img-size img{
     max-width: 100%; 
 }
 #timeline .demo-card--step2 {
-  background-color: #FFCBDB;
+  background-color: #ccc;
 }
 #timeline .demo-card--step2 .head::after {
-  border-color: #FFCBDB;
+  border-color: #ccc;
 }
 #timeline .demo-card--step3 {
-  background-color: #FFCBDB;
+  background-color: #ccc;
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #FFCBDB;
+  border-color: #ccc;
 }
 #timeline .demo-card--step4 {
-  background-color: #FFCBDB;
+  background-color: #ccc;
 }
 #timeline .demo-card--step4 .head::after {
-  border-color: #FFCBDB;
+  border-color: #ccc;
 }
 #timeline .demo-card--step5 {
-  background-color: #FFCBDB;
+  background-color: #ccc;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #FFCBDB;
+  border-color: #ccc;
 }
 h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small{
     color: #000!Important; 
